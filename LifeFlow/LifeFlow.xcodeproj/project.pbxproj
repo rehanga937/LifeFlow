@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A31BD4EE2A96425100C52017 /* CreateACLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BD4ED2A96425100C52017 /* CreateACLandingViewController.swift */; };
+		A3930C7F2A965DC300AFF545 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3930C7E2A965DC300AFF545 /* LoginViewController.swift */; };
+		A3AEDFE92A8C9310003D13EF /* CreateACPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEDFE82A8C9310003D13EF /* CreateACPage2ViewController.swift */; };
+		A3AEDFEB2A8CA4C6003D13EF /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEDFEA2A8CA4C6003D13EF /* CommonFunctions.swift */; };
+		A3DE2A662A971ED000485D28 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE2A652A971ED000485D28 /* TabBarController.swift */; };
+		A3DE2A682A97231A00485D28 /* CreateReservation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DE2A672A97231A00485D28 /* CreateReservation.storyboard */; };
+		A3DE2A6C2A9727BF00485D28 /* NextAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE2A6B2A9727BF00485D28 /* NextAppointmentViewController.swift */; };
+		A3DE2A6E2A972A3D00485D28 /* BloodCollectionPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE2A6D2A972A3D00485D28 /* BloodCollectionPoint.swift */; };
+		A3DE2A702A9743C400485D28 /* CreateAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE2A6F2A9743C400485D28 /* CreateAppointmentViewController.swift */; };
+		A3EAC8242A99B7DF005FEA65 /* CreateAppointmentLandingVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC8232A99B7DF005FEA65 /* CreateAppointmentLandingVCViewController.swift */; };
+		A3EAC8482A99D99E005FEA65 /* LifeFlow_vishwaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC8472A99D99E005FEA65 /* LifeFlow_vishwaApp.swift */; };
+		A3EAC84A2A99D9B5005FEA65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC8492A99D9B5005FEA65 /* ContentView.swift */; };
+		A3EAC84C2A99D9D3005FEA65 /* QRGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC84B2A99D9D3005FEA65 /* QRGeneratorView.swift */; };
+		A3EAC84E2A99DA00005FEA65 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC84D2A99DA00005FEA65 /* UINavigationBar.swift */; };
+		A3EAC8502A99DA13005FEA65 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC84F2A99DA13005FEA65 /* PersonView.swift */; };
+		A3EAC8522A99DA2C005FEA65 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC8512A99DA2C005FEA65 /* QRScannerView.swift */; };
+		A3EAC8542A99DA4D005FEA65 /* DonationHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC8532A99DA4D005FEA65 /* DonationHistoryView.swift */; };
+		A3EAC8562A99DA5B005FEA65 /* BloodProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC8552A99DA5B005FEA65 /* BloodProgressView.swift */; };
+		A3EAC8592A99DA83005FEA65 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = A3EAC8582A99DA83005FEA65 /* CodeScanner */; };
+		A3EAC85B2A99DB2D005FEA65 /* ViewControllerToLinkToSwiftUIQRGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC85A2A99DB2D005FEA65 /* ViewControllerToLinkToSwiftUIQRGen.swift */; };
+		A3EAC85D2A99DE4C005FEA65 /* selectFromReservationHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC85C2A99DE4C005FEA65 /* selectFromReservationHistoryView.swift */; };
+		A3EAC85F2A99E507005FEA65 /* ViewControllerToLinkToSwiftUIDonationHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC85E2A99E507005FEA65 /* ViewControllerToLinkToSwiftUIDonationHistory.swift */; };
+		A3EAC8612A99F6DE005FEA65 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC8602A99F6DE005FEA65 /* HistoryView.swift */; };
+		A3EAC8632A99FE90005FEA65 /* BloodAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EAC8622A99FE90005FEA65 /* BloodAppointment.swift */; };
+		A3F880B02A8B2C9800A46F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F880AF2A8B2C9800A46F77 /* AppDelegate.swift */; };
+		A3F880B22A8B2C9800A46F77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F880B12A8B2C9800A46F77 /* SceneDelegate.swift */; };
+		A3F880B42A8B2C9800A46F77 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F880B32A8B2C9800A46F77 /* WelcomeViewController.swift */; };
+		A3F880B72A8B2C9800A46F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F880B52A8B2C9800A46F77 /* Main.storyboard */; };
+		A3F880B92A8B2C9900A46F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F880B82A8B2C9900A46F77 /* Assets.xcassets */; };
+		A3F880BC2A8B2C9900A46F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F880BA2A8B2C9900A46F77 /* LaunchScreen.storyboard */; };
+		A3F880C52A8B3D9A00A46F77 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A3F880C42A8B3D9A00A46F77 /* IQKeyboardManagerSwift */; };
+		A3F880C72A8B418900A46F77 /* CreateACPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F880C62A8B418900A46F77 /* CreateACPage1ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A31BD4ED2A96425100C52017 /* CreateACLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateACLandingViewController.swift; sourceTree = "<group>"; };
+		A3930C7E2A965DC300AFF545 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A3AEDFE82A8C9310003D13EF /* CreateACPage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateACPage2ViewController.swift; sourceTree = "<group>"; };
+		A3AEDFEA2A8CA4C6003D13EF /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		A3DE2A652A971ED000485D28 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A3DE2A672A97231A00485D28 /* CreateReservation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateReservation.storyboard; sourceTree = "<group>"; };
+		A3DE2A6B2A9727BF00485D28 /* NextAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextAppointmentViewController.swift; sourceTree = "<group>"; };
+		A3DE2A6D2A972A3D00485D28 /* BloodCollectionPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodCollectionPoint.swift; sourceTree = "<group>"; };
+		A3DE2A6F2A9743C400485D28 /* CreateAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAppointmentViewController.swift; sourceTree = "<group>"; };
+		A3EAC8232A99B7DF005FEA65 /* CreateAppointmentLandingVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAppointmentLandingVCViewController.swift; sourceTree = "<group>"; };
+		A3EAC8472A99D99E005FEA65 /* LifeFlow_vishwaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeFlow_vishwaApp.swift; sourceTree = "<group>"; };
+		A3EAC8492A99D9B5005FEA65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3EAC84B2A99D9D3005FEA65 /* QRGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGeneratorView.swift; sourceTree = "<group>"; };
+		A3EAC84D2A99DA00005FEA65 /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		A3EAC84F2A99DA13005FEA65 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		A3EAC8512A99DA2C005FEA65 /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		A3EAC8532A99DA4D005FEA65 /* DonationHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationHistoryView.swift; sourceTree = "<group>"; };
+		A3EAC8552A99DA5B005FEA65 /* BloodProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodProgressView.swift; sourceTree = "<group>"; };
+		A3EAC85A2A99DB2D005FEA65 /* ViewControllerToLinkToSwiftUIQRGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerToLinkToSwiftUIQRGen.swift; sourceTree = "<group>"; };
+		A3EAC85C2A99DE4C005FEA65 /* selectFromReservationHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectFromReservationHistoryView.swift; sourceTree = "<group>"; };
+		A3EAC85E2A99E507005FEA65 /* ViewControllerToLinkToSwiftUIDonationHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerToLinkToSwiftUIDonationHistory.swift; sourceTree = "<group>"; };
+		A3EAC8602A99F6DE005FEA65 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A3EAC8622A99FE90005FEA65 /* BloodAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodAppointment.swift; sourceTree = "<group>"; };
+		A3F880AC2A8B2C9800A46F77 /* LifeFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F880AF2A8B2C9800A46F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3F880B12A8B2C9800A46F77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3F880B32A8B2C9800A46F77 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A3F880B62A8B2C9800A46F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3F880B82A8B2C9900A46F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3F880BB2A8B2C9900A46F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3F880BD2A8B2C9900A46F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F880C62A8B418900A46F77 /* CreateACPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateACPage1ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F880A92A8B2C9800A46F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EAC8592A99DA83005FEA65 /* CodeScanner in Frameworks */,
+				A3F880C52A8B3D9A00A46F77 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3DE2A692A9723C500485D28 /* 1 Login, Create AC */ = {
+			isa = PBXGroup;
+			children = (
+				A3DE2A652A971ED000485D28 /* TabBarController.swift */,
+				A3930C7E2A965DC300AFF545 /* LoginViewController.swift */,
+				A31BD4ED2A96425100C52017 /* CreateACLandingViewController.swift */,
+				A3AEDFE82A8C9310003D13EF /* CreateACPage2ViewController.swift */,
+				A3F880C62A8B418900A46F77 /* CreateACPage1ViewController.swift */,
+				A3F880B32A8B2C9800A46F77 /* WelcomeViewController.swift */,
+				A3F880B52A8B2C9800A46F77 /* Main.storyboard */,
+				A3EAC85E2A99E507005FEA65 /* ViewControllerToLinkToSwiftUIDonationHistory.swift */,
+				A3EAC85A2A99DB2D005FEA65 /* ViewControllerToLinkToSwiftUIQRGen.swift */,
+			);
+			path = "1 Login, Create AC";
+			sourceTree = "<group>";
+		};
+		A3DE2A6A2A97276400485D28 /* 2 CreateOrManageReservation */ = {
+			isa = PBXGroup;
+			children = (
+				A3DE2A672A97231A00485D28 /* CreateReservation.storyboard */,
+				A3DE2A6F2A9743C400485D28 /* CreateAppointmentViewController.swift */,
+				A3DE2A6B2A9727BF00485D28 /* NextAppointmentViewController.swift */,
+				A3EAC8622A99FE90005FEA65 /* BloodAppointment.swift */,
+				A3DE2A6D2A972A3D00485D28 /* BloodCollectionPoint.swift */,
+				A3EAC8232A99B7DF005FEA65 /* CreateAppointmentLandingVCViewController.swift */,
+			);
+			path = "2 CreateOrManageReservation";
+			sourceTree = "<group>";
+		};
+		A3EAC8462A99D8F1005FEA65 /* 3 Donation History and QR (SwiftUI) */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAC8472A99D99E005FEA65 /* LifeFlow_vishwaApp.swift */,
+				A3EAC8492A99D9B5005FEA65 /* ContentView.swift */,
+				A3EAC84B2A99D9D3005FEA65 /* QRGeneratorView.swift */,
+				A3EAC84D2A99DA00005FEA65 /* UINavigationBar.swift */,
+				A3EAC84F2A99DA13005FEA65 /* PersonView.swift */,
+				A3EAC8512A99DA2C005FEA65 /* QRScannerView.swift */,
+				A3EAC85C2A99DE4C005FEA65 /* selectFromReservationHistoryView.swift */,
+				A3EAC8532A99DA4D005FEA65 /* DonationHistoryView.swift */,
+				A3EAC8552A99DA5B005FEA65 /* BloodProgressView.swift */,
+				A3EAC8602A99F6DE005FEA65 /* HistoryView.swift */,
+			);
+			path = "3 Donation History and QR (SwiftUI)";
+			sourceTree = "<group>";
+		};
+		A3F880A32A8B2C9800A46F77 = {
+			isa = PBXGroup;
+			children = (
+				A3F880AE2A8B2C9800A46F77 /* LifeFlow Reha */,
+				A3F880AD2A8B2C9800A46F77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F880AD2A8B2C9800A46F77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F880AC2A8B2C9800A46F77 /* LifeFlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F880AE2A8B2C9800A46F77 /* LifeFlow Reha */ = {
+			isa = PBXGroup;
+			children = (
+				A3F880AF2A8B2C9800A46F77 /* AppDelegate.swift */,
+				A3F880B12A8B2C9800A46F77 /* SceneDelegate.swift */,
+				A3AEDFEA2A8CA4C6003D13EF /* CommonFunctions.swift */,
+				A3F880B82A8B2C9900A46F77 /* Assets.xcassets */,
+				A3F880BA2A8B2C9900A46F77 /* LaunchScreen.storyboard */,
+				A3F880BD2A8B2C9900A46F77 /* Info.plist */,
+				A3DE2A692A9723C500485D28 /* 1 Login, Create AC */,
+				A3DE2A6A2A97276400485D28 /* 2 CreateOrManageReservation */,
+				A3EAC8462A99D8F1005FEA65 /* 3 Donation History and QR (SwiftUI) */,
+			);
+			path = "LifeFlow Reha";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F880AB2A8B2C9800A46F77 /* LifeFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F880C02A8B2C9900A46F77 /* Build configuration list for PBXNativeTarget "LifeFlow" */;
+			buildPhases = (
+				A3F880A82A8B2C9800A46F77 /* Sources */,
+				A3F880A92A8B2C9800A46F77 /* Frameworks */,
+				A3F880AA2A8B2C9800A46F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeFlow;
+			packageProductDependencies = (
+				A3F880C42A8B3D9A00A46F77 /* IQKeyboardManagerSwift */,
+				A3EAC8582A99DA83005FEA65 /* CodeScanner */,
+			);
+			productName = "LifeFlow Reha";
+			productReference = A3F880AC2A8B2C9800A46F77 /* LifeFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F880A42A8B2C9800A46F77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A3F880AB2A8B2C9800A46F77 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A3F880A72A8B2C9800A46F77 /* Build configuration list for PBXProject "LifeFlow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F880A32A8B2C9800A46F77;
+			packageReferences = (
+				A3F880C32A8B3D9A00A46F77 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				A3EAC8572A99DA83005FEA65 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = A3F880AD2A8B2C9800A46F77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F880AB2A8B2C9800A46F77 /* LifeFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F880AA2A8B2C9800A46F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F880BC2A8B2C9900A46F77 /* LaunchScreen.storyboard in Resources */,
+				A3DE2A682A97231A00485D28 /* CreateReservation.storyboard in Resources */,
+				A3F880B92A8B2C9900A46F77 /* Assets.xcassets in Resources */,
+				A3F880B72A8B2C9800A46F77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F880A82A8B2C9800A46F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EAC8562A99DA5B005FEA65 /* BloodProgressView.swift in Sources */,
+				A3EAC84E2A99DA00005FEA65 /* UINavigationBar.swift in Sources */,
+				A3EAC85B2A99DB2D005FEA65 /* ViewControllerToLinkToSwiftUIQRGen.swift in Sources */,
+				A3EAC8542A99DA4D005FEA65 /* DonationHistoryView.swift in Sources */,
+				A3EAC8242A99B7DF005FEA65 /* CreateAppointmentLandingVCViewController.swift in Sources */,
+				A3AEDFEB2A8CA4C6003D13EF /* CommonFunctions.swift in Sources */,
+				A3DE2A6E2A972A3D00485D28 /* BloodCollectionPoint.swift in Sources */,
+				A3EAC8612A99F6DE005FEA65 /* HistoryView.swift in Sources */,
+				A3DE2A702A9743C400485D28 /* CreateAppointmentViewController.swift in Sources */,
+				A3DE2A6C2A9727BF00485D28 /* NextAppointmentViewController.swift in Sources */,
+				A3EAC85F2A99E507005FEA65 /* ViewControllerToLinkToSwiftUIDonationHistory.swift in Sources */,
+				A3EAC84C2A99D9D3005FEA65 /* QRGeneratorView.swift in Sources */,
+				A3EAC8632A99FE90005FEA65 /* BloodAppointment.swift in Sources */,
+				A3F880B42A8B2C9800A46F77 /* WelcomeViewController.swift in Sources */,
+				A3F880B02A8B2C9800A46F77 /* AppDelegate.swift in Sources */,
+				A3EAC8502A99DA13005FEA65 /* PersonView.swift in Sources */,
+				A3DE2A662A971ED000485D28 /* TabBarController.swift in Sources */,
+				A31BD4EE2A96425100C52017 /* CreateACLandingViewController.swift in Sources */,
+				A3930C7F2A965DC300AFF545 /* LoginViewController.swift in Sources */,
+				A3AEDFE92A8C9310003D13EF /* CreateACPage2ViewController.swift in Sources */,
+				A3EAC84A2A99D9B5005FEA65 /* ContentView.swift in Sources */,
+				A3EAC8522A99DA2C005FEA65 /* QRScannerView.swift in Sources */,
+				A3EAC8482A99D99E005FEA65 /* LifeFlow_vishwaApp.swift in Sources */,
+				A3F880B22A8B2C9800A46F77 /* SceneDelegate.swift in Sources */,
+				A3EAC85D2A99DE4C005FEA65 /* selectFromReservationHistoryView.swift in Sources */,
+				A3F880C72A8B418900A46F77 /* CreateACPage1ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3F880B52A8B2C9800A46F77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F880B62A8B2C9800A46F77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3F880BA2A8B2C9900A46F77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F880BB2A8B2C9900A46F77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3F880BE2A8B2C9900A46F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F880BF2A8B2C9900A46F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F880C12A8B2C9900A46F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ54WC5Q2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LifeFlow Reha/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.LifeFlow-Reha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F880C22A8B2C9900A46F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ54WC5Q2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LifeFlow Reha/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.LifeFlow-Reha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F880A72A8B2C9800A46F77 /* Build configuration list for PBXProject "LifeFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F880BE2A8B2C9900A46F77 /* Debug */,
+				A3F880BF2A8B2C9900A46F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F880C02A8B2C9900A46F77 /* Build configuration list for PBXNativeTarget "LifeFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F880C12A8B2C9900A46F77 /* Debug */,
+				A3F880C22A8B2C9900A46F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A3EAC8572A99DA83005FEA65 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		A3F880C32A8B3D9A00A46F77 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3EAC8582A99DA83005FEA65 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3EAC8572A99DA83005FEA65 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		A3F880C42A8B3D9A00A46F77 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3F880C32A8B3D9A00A46F77 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A3F880A42A8B2C9800A46F77 /* Project object */;
+}
