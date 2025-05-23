@@ -22,3 +22,7 @@ The entire solution consists of:
 # History and Tracking Views
 ![history](https://github.com/rehanga937/LifeFlow/blob/main/readmeImages/history.png)
 ![qr](https://github.com/rehanga937/LifeFlow/blob/main/readmeImages/qr.png)
+
+# Dependencies
+- CodeScanner 2.3.3
+- IQKeyboardManagerSwift 6.5.12
