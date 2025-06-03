@@ -10,18 +10,18 @@ The entire solution consists of:
 - An iOS app for hospital staff to handle donations and donors (handled entirely by Vishwa and is not included in this repo).
 
 # Donor App Flow
-![Donor app flow](https://github.com/rehanga937/LifeFlow/blob/main/readmeImages/flow.png)
+![Donor app flow](readmeImages/flow.png)
 
 # Registration and Login Views
-![homeAndSignup](https://github.com/rehanga937/LifeFlow/blob/main/readmeImages/homeAndSignup.png)
-![herrorsAndLogin](https://github.com/rehanga937/LifeFlow/blob/main/readmeImages/errorsAndLogin.png)
+![homeAndSignup](readmeImages/homeAndSignup.png)
+![herrorsAndLogin](readmeImages/errorsAndLogin.png)
 
 # Appointment Creation Views
-![mapAndAppointments](https://github.com/rehanga937/LifeFlow/blob/main/readmeImages/mapAndAppointments.png)
+![mapAndAppointments](readmeImages/mapAndAppointments.png)
 
 # History and Tracking Views
-![history](https://github.com/rehanga937/LifeFlow/blob/main/readmeImages/history.png)
-![qr](https://github.com/rehanga937/LifeFlow/blob/main/readmeImages/qr.png)
+![history](readmeImages/history.png)
+![qr](readmeImages/qr.png)
 
 # Dependencies
 - CodeScanner 2.3.3
